@@ -1,4 +1,4 @@
-# 🎥 Página Inicial do Discord
+# 🎮 Página de Recriação da Interface do Discord
 
 Bem-vindo ao repositório **Discord Responsive Page Clone**! 🎉 Este projeto tem como objetivo reproduzir a interface da famosa plataforma Discord, colocando em prática todos os conceitos de **Responsividade no CSS** que aprendi até agora. 🌟
 
