@@ -1,3 +1,4 @@
+
 # 🎮 Página de Recriação da Interface do Discord
 
 Bem-vindo ao repositório **Discord Responsive Page Clone**! 🎉 Este projeto tem como objetivo reproduzir a interface da famosa plataforma Discord, colocando em prática todos os conceitos de **Responsividade no CSS** que aprendi até agora. 🌟
@@ -28,7 +29,7 @@ Este projeto foi desenvolvido com a missão de recriar a página inicial do Disc
 
 O código HTML contém:
 
-- Um cabeçalho com imagem de fundo e opções de acesso.
+- Um cabeçalho com introdução e opções de acesso.
 - Seções informativas que descrevem os principais benefícios e recursos da plataforma.
 - Um rodapé que inclui o logo da plataforma.
 
@@ -43,7 +44,7 @@ O CSS foi escrito para:
 
 ## 📌 Principais Recursos
 
-- **Cabeçalho Personalizado**: Inclui logo e uma barra de navegação que simula a interface do Discord.
+- **Cabeçalho Personalizado**: Inclui introdução e opções de acesso, que simula a interface do Discord.
 - **Seções Informativas**: Destaques dos principais benefícios e características da plataforma.
 - **Layout Responsivo**: Utilização de Flexbox e Grid Layout para garantir que o design se ajuste a qualquer dispositivo.
 
@@ -52,11 +53,27 @@ O CSS foi escrito para:
 
 1. Clone o repositório:
     ```bash
-    git clone https://github.com/seu-usuario/YouTube-List.git
+    git clone https://github.com/seu-usuario/discord-responsive-page-clone.git
     ```
 2. Navegue até a pasta do projeto:
     ```bash
-    cd YouTube-List
+    cd discord-responsive-page-clone
     ```
 3. Abra o arquivo `index.html` no seu navegador favorito e curta o visual!
 
+
+## 🤩 Por que esse projeto é tão legal?
+
+- **Aprendizado Prático:** Uma excelente oportunidade para entender como criar uma página web responsiva que simula uma interface popular.
+- **Desenvolvimento Front-end:** Se CSS e responsividade são seus focos, este projeto é um campo de treino perfeito!
+- **Customização:** O projeto é seu! Sinta-se livre para alterar cores, fontes e adicionar novas funcionalidades.
+
+Curtiu? Dá aquele ⭐ no repositório e vamos criar algo incrível juntos!
+
+## 🤝 Contribuição
+Contribuições são super bem-vindas! 🎉 
+Se você encontrou algum problema ou tem alguma sugestão, sinta-se à vontade para abrir uma issue ou enviar um pull request. Vamos juntos tornar este projeto ainda melhor! 🚀
+
+---
+
+🚀 **Mantenha-se conectado!** Fique de olho nos updates e novas funcionalidades que estão por vir.
