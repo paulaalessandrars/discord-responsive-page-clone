@@ -1,0 +1,471 @@
+/* Importando as fontes que serão usadas no projeto*/
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:wght@400;800&display=swap');
+
+/* Estilos gerais - Mobile First (iPhone 13 Pro Max) */
+html, body {
+    height: 100%;
+    min-height: 174.5rem; 
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'open sans', sans-serif;
+    background-color: #FFFFFF;
+    color: #23272A;
+}
+
+header {
+    background: url('../Images/Header\ Background.png') no-repeat center center;
+    flex-shrink: 0; /* Evita que o header encolha */
+    background-size: cover; /* Faz com que a imagem preencha todo o espaço */
+}
+
+main {
+    flex-grow: 1; /* Faz o main crescer para ocupar o espaço disponível */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribui os elementos de forma uniforme */
+}
+
+.hero {
+    text-align: center;
+    background-color: #5865F2;
+    color: white;
+    padding: 0, 1.5rem, 0, 1.5rem;
+}
+
+.container {
+    width: 100%;
+    padding: 1.3rem;
+    box-sizing: border-box;
+    flex-grow: 1;
+}
+
+.hero h1 {
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2rem;
+    font-family: Luckiest Guy;
+    width: 100%;
+    text-align: left;
+}
+
+.hero p {
+    margin-top: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.36rem;
+    width: 100%;
+    text-align: left;
+}
+
+.hero-buttons {
+    margin-top: 1.87rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.625rem;
+}
+
+.hero-buttons .btn {
+    padding: 0.93rem;
+    border: none;
+    font-size: 1rem;
+    border-radius: 1.87rem;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.hero-buttons .btn-windows {
+    background-color: #FFFFFF;
+    color: #23272A;
+}
+
+.hero-buttons .btn-open {
+    background-color: #23272A;
+    color: white;
+}
+
+/* Features --------------------------------------------------------------------------------*/
+
+.feature {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+
+/* Zebrando as seções */
+section.feature:nth-child(even) {
+    background-color: #F6F6F6; 
+}
+
+
+.feature-content-1 {
+    width: Fixed (26.75rem);
+    height: Hug (35.81rem);
+}
+
+.feature-content-2, .feature-content-3  {
+    width: Fixed (26.75rem);
+    height: Hug (31.7rem);
+}
+
+.feature-content-1,
+.feature-content-2, .feature-content-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    text-align: left;
+    gap: 1.7rem; 
+    padding-right: 1rem;
+}
+
+.feature-content-1 img,
+.feature-content-2 img,
+.feature-content-3 img {
+    height: auto;
+    margin-top: 1.5rem;
+    max-width: 100%; /* Garante que a imagem nunca exceda a largura do container */
+    box-sizing: border-box; /* Inclui padding e border na largura total */
+}
+
+
+
+.feature-content-1 h2,
+.feature-content-2 h2,
+.feature-content-3 h2 {
+    font-weight: 800;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: #23272A;
+    margin-bottom: 0.6rem;
+    width: 100%;
+}
+
+.feature-content-1 p,
+.feature-content-2 p,
+.feature-content-3 p,
+.feature-content-4 p {
+    width: Fixed (26.75rem);
+    height: Hug (35.81rem);
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.4rem;
+    color: #23272A;
+    text-align: left;
+}
+
+.section-4 .break-word {
+    display: block;
+}
+
+/* Centralização da última seção */
+.feature-content-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: Fixed (26.75rem);
+    height: Hug (35rem);
+    padding: 2.5rem 1.5rem;
+}
+
+.feature-content-4 h2 {
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2rem;
+    font-family: Luckiest Guy;
+    width: 23.5rem;
+    height: 4rem;
+    text-align: left;
+    padding-bottom: 1rem;
+}
+
+.fix-image img {
+    max-width: 15.75rem;
+    max-width: 23.68rem;
+    margin-top: 1.25rem;
+}
+
+/* Estilo do rodapé */
+footer {
+    flex-shrink: 0; /* Evita que o footer encolha */
+    text-align: center;
+    background-color: #23272A;
+    color: white;
+    padding: 1.25rem 0;
+    margin-top: auto; /* Empurra o rodapé para o final */
+}
+
+footer img {
+    max-width: 6.25rem;
+    height: auto;
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------------ */
+
+
+/* Estilos para dispositivos maiores */
+@media screen and (min-width: 48rem) {
+    /* Ajuste o container principal para centralizar o conteúdo */
+
+   
+    .container {
+        width: 100%;
+        padding: 1.3rem;
+        box-sizing: border-box;
+        flex-grow: 1;
+        overflow-x: hidden;
+        justify-content: center;
+    }
+
+
+    body {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        overflow-x: hidden;
+    }
+    
+    /* Ajuste o header */
+    header {
+        margin: 0;
+        height: 28rem; /* Defina uma altura específica para o header */
+        flex-shrink: 0; /* Evita que o header encolha */
+        background-size: cover; /* Faz com que a imagem preencha todo o espaço */
+    }
+    
+
+    /* Hero Section */
+    .hero {
+        text-align: center;
+        padding: 2rem; /* Mais espaçamento para áreas maiores */
+    }
+
+    .hero h1 {
+        width: 68.75rem;
+        height: 7rem;
+        font-weight: 400;
+        font-size: 3.5rem;
+        line-height: 3.5rem;
+        text-align: center;
+        padding: 2rem;
+        margin-top: 1rem;
+    }
+
+    .hero p {
+        width: 47.3rem;
+        height: 4.2rem;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.4rem;
+        max-width: 47.3rem; /* Ajuste a largura máxima do parágrafo */
+        margin: 0 auto; 
+        text-align: center;
+        padding: .5rem;
+    }
+
+    .hero-buttons {
+        flex-direction: row;
+        justify-content: center;
+        gap: 1.6rem;
+        border-radius: 1.75rem;
+    }
+
+    .hero-buttons .btn-windows {
+        background-color: #FFFFFF;
+        color: #23272A;
+        width: 12.8rem;
+    }
+/* --------------------------------------------------------------- */
+
+    /* Features Sections */
+    .feature {
+        display: flex;
+        align-items: center;
+        text-align: left;
+        justify-content: space-between;
+    }
+
+
+    .feature-content-1, 
+    .feature-content-3 {
+        flex: 1;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .feature-content-1 img {
+        width: 37.94rem;
+        height: 24.63rem;
+        margin-left: 6.25rem;
+    }
+
+    .feature-content-1 h2 {
+        width: 20.56rem;
+        max-height: 16.87rem;
+        font-weight: 800;
+        font-size: 2.5rem;
+        line-height: 3.4rem;
+        color: #23272A;
+        margin-right: 9.38rem;
+    }
+
+    .feature-content-1 p {
+        width: 21.75rem;
+        height: 5.5rem;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.36rem;
+        color: #23272A;
+        margin-right: 9.38rem;
+    }
+
+
+    .feature-content-2 {
+        flex: 1;
+        flex-direction: row-reverse; /* Inverta a ordem das seções pares */
+        justify-content: space-between;
+    }
+
+    .feature-content-2 img {
+        width: 37.94rem;
+        height: 24.63rem;
+        margin-right: 8.44rem
+    }
+
+    .feature-content-2 h2 {
+        width: 20.56rem;
+        max-height: 16.87;
+        font-weight: 800;
+        font-size: 2.5rem;
+        line-height: 3.4rem;
+        color: #23272A;
+        padding: 0;
+        margin-left: 7.5rem;
+        margin-top: 6rem;
+        margin-bottom: 0;
+    }
+
+    .feature-content-2 p {
+        width: 21.75rem;
+        height: 5.5rem;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.36rem;
+        color: #23272A;
+        padding: 0;
+        margin-left: 7.5rem;
+        
+    }
+
+    .feature-content-2 div {
+        padding: 0;
+        width: 21.81rem;
+        max-height: 16.88rem;
+    }
+
+
+
+    .feature-content-3 h2 {
+        width: 20.56rem;
+        max-height: 16.88rem;
+        font-weight: 800;
+        font-size: 2.5rem;
+        line-height: 3.4rem;
+        color: #23272A;
+        margin-right: 12.5rem;
+        margin-top: 6.5rem;
+    }
+
+    .feature-content-3 p {
+        width: 21.75rem;
+        height: 5.5rem;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.36rem;
+        color: #23272A;
+        margin-right: 12.5rem;
+    }
+
+    .feature-content-3 img {
+        width: 37.94rem;
+        height: 24.63rem;
+        margin-left: 8.125rem;
+    }
+
+
+    .feature-content-4 {
+        text-align: center;
+        flex-direction: column;
+        margin: 0 auto;
+        max-width: 75rem; 
+        align-items: center;
+    }
+    
+    .feature-content-4 h2 {
+        margin: 0;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+        font-family: Luckiest Guy;
+        width: 28.5rem;
+        height: 4rem;
+        text-align: center;
+        padding-bottom: 1rem;
+        align-items: center;
+        margin-left: 10rem;
+    }
+    
+    .section-4 .break-word {
+        display: block;
+    }
+    
+    .feature-content-4 p {
+        font-size: 1rem;
+        line-height: 1.4;
+        text-align: center;
+        max-width: 50.13rem;
+    }
+    
+    .feature-content-4 img {
+        max-width: 49rem; 
+        height: 31.75rem; 
+        margin-top: 1.25rem; 
+        margin: 0;
+    }
+    
+
+/* -------------------------------------------------------------- */
+
+
+    /* Estilo do rodapé */
+    footer {
+        width: 100%;
+        flex-shrink: 0;
+        text-align: center;
+        background-color: #23272A;
+        color: white;
+        padding: 1.25rem 0;
+        margin-top: auto;
+    }
+
+    footer img {
+        max-width: 14.38rem;
+        height: auto;
+    }
+
+}
